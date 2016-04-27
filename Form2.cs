@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
+
 namespace CAESAR_lisflood_1._0
 {
     public partial class Form2 : System.Windows.Forms.Form
@@ -22,6 +23,7 @@ namespace CAESAR_lisflood_1._0
 
         private void Form2_Leave(object sender, EventArgs e)
         {
+            //caesar1.Form1 Frm1 = new caesar1.Form1();
             caesar1.Form1.checkBox2.Checked = false;
         }
 

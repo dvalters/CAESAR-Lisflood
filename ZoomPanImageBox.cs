@@ -13,6 +13,7 @@ using System.Drawing;
 using System.Data;
 using System.Windows.Forms;
 
+
 namespace Smallwisdom.Windows.Forms
 {
 	/// <summary>
@@ -163,6 +164,7 @@ namespace Smallwisdom.Windows.Forms
 
         private void clicky(object sender, MouseEventArgs e)
         {
+            //caesar1.Form1 Frm1 = new caesar1.Form1();
             if (caesar1.Form1.checkBox2.Checked == true)
             {
                 int newZoom = caesar1.Form1.graphics_scale;
@@ -184,6 +186,7 @@ namespace Smallwisdom.Windows.Forms
                     "Soil depth " + Convert.ToString(caesar1.Form1.elev[(int)(x), (int)(y)] - caesar1.Form1.bedrock[(int)(x), (int)(y)]) + Environment.NewLine/*+
                     "Edge " + Convert.ToString(caesar1.Form1.edge[(int)(x), (int)(y)]) + Environment.NewLine*/
                     ;
+
 
                 if (CAESAR_lisflood_1._0.Form2.ElevcheckBox1.Checked == true)
                 {

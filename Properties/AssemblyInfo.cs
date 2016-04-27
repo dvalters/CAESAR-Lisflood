@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CAESAR-lisflood 1.5")]
+[assembly: AssemblyTitle("CAESAR-lisflood 1.8")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Hewlett-Packard")]
-[assembly: AssemblyProduct("CAESAR-lisflood 1.5")]
+[assembly: AssemblyProduct("CAESAR-lisflood 1.8")]
 [assembly: AssemblyCopyright("Copyright © Tom Coulthard")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
